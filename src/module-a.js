@@ -1,3 +1,5 @@
+import { query } from "./module-b";
+
 export const arrow = () => {
     let variable = 'canvi let';
     console.log('la funció fletxa rutlla');
@@ -14,3 +16,5 @@ export const arrow = () => {
       return `${this.name} say bub bub!`;
     }
   }
+
+  
